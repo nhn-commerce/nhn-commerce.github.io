@@ -1,0 +1,63 @@
+{
+  "root": true,
+  "ignorePatterns": ["node_modules/"],
+  "plugins": ["prettier"],
+  "parser": "@typescript-eslint/parser",
+  "extends": ["prettier"],
+  "globals": {
+    "React": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": { "jsx": true },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "jest": true
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "extends": ["plugin:@typescript-eslint/recommended"],
+      "rules": {
+        "@typescript-eslint/ban-types": "off"
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "extends": [],
+      "rules": {}
+    },
+    {
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "extends": ["tui", "prettier"],
+      "rules": {
+        "prettier/prettier": ["error"],
+        "no-nested-ternary": "warn",
+        "no-shadow": "warn",
+        "curly": "error",
+        "no-undefined": "off",
+        "no-use-before-define": [
+          "error",
+          {
+            "allowNamedExports": true,
+            "functions": true,
+            "classes": true,
+            "variables": true
+          }
+        ],
+        "lines-between-class-members": "off",
+        "no-unused-expressions": "off",
+        "complexity": ["warn", 15],
+        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "react/react-in-jsx-scope": "off",
+        "prefer-destructuring": "off",
+        "consistent-return": "off"
+      }
+    }
+  ]
+}
