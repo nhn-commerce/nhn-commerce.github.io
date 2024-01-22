@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktech_blog=self.webpackChunktech_blog||[]).push([[7370],{3087:s=>{s.exports=JSON.parse('{"label":"shopby","permalink":"/blog/tags/shopby","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
