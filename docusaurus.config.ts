@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: '기술블로그',
+  title: 'Tech Blog',
   tagline: '커머스 플랫폼을 운영하면서 쌓인 노하우를 공개합니다.',
   favicon: 'img/favicon.ico',
 

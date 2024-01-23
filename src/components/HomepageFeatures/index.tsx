@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '뭘 넣어야함 ? 컨텐츠 모르겠음',
+    title: '여기 뭐가 들어가야하는거지?',
     Svg: require('@site/static/img/store.svg').default,
     description: <>우리 기술스택 소개?</>,
   },
