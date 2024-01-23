@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.nhn-commerce.com/blog</id>
-    <title>기술블로그 Blog</title>
+    <title>Tech Blog Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.nhn-commerce.com/blog"/>
-    <subtitle>기술블로그 Blog</subtitle>
+    <subtitle>Tech Blog Blog</subtitle>
     <icon>https://www.nhn-commerce.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[환영합니다.]]></title>
