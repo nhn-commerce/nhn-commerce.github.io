@@ -40,7 +40,7 @@ const config: Config = {
         blog: {
           showReadingTime: true,
           // @FIXME: github 주소로 변경할것
-          editUrl: 'https://www.nhn-commerce.com',
+          editUrl: 'https://github.com/nhn-commerce/nhn-commerce.github.io',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -67,7 +67,7 @@ const config: Config = {
         // },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/nhn-commerce/nhn-commerce.github.io',
           label: 'GitHub',
           position: 'right',
         },
