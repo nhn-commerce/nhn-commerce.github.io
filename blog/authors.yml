@@ -1,23 +1,11 @@
 haekyu:
   name: Haekyu Cho
   title: Director
-  url: https://www.nhn-commerce.com
+  url: https://www.nhn-commerce.com # github.com 주소?
   image_url: https://rarepepes.com/wp-content/uploads/2021/06/1424933369558.jpg
 
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+seowon:
+  name: Seowon Yun
+  title: Devops Engineer
+  url: https://github.nhnent.com/seowon-yun
+  image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/1024px-Devops-toolchain.svg.png

@@ -33,17 +33,24 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          editUrl: 'https://www.nhn-commerce.com',
-        },
+        // docs: {
+        //   sidebarPath: './sidebars.ts',
+        //   editUrl: 'https://nhn-commerce.github.io',
+        // },
+        docs: false,
         blog: {
           showReadingTime: true,
-          // @FIXME: github 주소로 변경할것
           editUrl: 'https://github.com/nhn-commerce/nhn-commerce.github.io/edit/main',
+          routeBasePath: '/',
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
     ],
