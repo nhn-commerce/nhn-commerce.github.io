@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktech_blog=self.webpackChunktech_blog||[]).push([[314],{1885:l=>{l.exports=JSON.parse('{"label":"godomall","permalink":"/tags/godomall","allTagsPath":"/tags","count":2,"unlisted":false}')}}]);

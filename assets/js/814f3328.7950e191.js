@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_blog=self.webpackChunktech_blog||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\uc8fc\ubb38 \ube14\ub85c\uadf8.","permalink":"/blog/order","unlisted":false},{"title":"\ub0b4\uac00 \ubb58 \ud560\uc218 \uc788\ub294\ub370.","permalink":"/blog/product","unlisted":false}]}')}}]);

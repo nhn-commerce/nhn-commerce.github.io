@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_blog=self.webpackChunktech_blog||[]).push([[713],{3457:l=>{l.exports=JSON.parse('[{"label":"shopby","permalink":"/blog/tags/shopby","count":2},{"label":"godomall","permalink":"/blog/tags/godomall","count":2}]')}}]);
