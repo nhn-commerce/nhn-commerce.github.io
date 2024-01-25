@@ -388,5 +388,5 @@ class UriEncodeGlobalFilter: GlobalFilter, Ordered {
 
 ## 결론
 
-- 규칙을 잘 지키자.
+- url encoding 스펙에 대해서 미리 미리 공부해야한다.
 - 이미 엎질러진 물을 어떻게 주워담을지 고민이 필요.
