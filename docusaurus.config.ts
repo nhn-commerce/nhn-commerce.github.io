@@ -6,6 +6,7 @@ const config: Config = {
   title: 'Tech Blog',
   tagline: '커머스 플랫폼을 운영하면서 쌓인 노하우를 공개합니다.',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
 
   // Set the production url of your site here
   url: 'https://www.nhn-commerce.com',
