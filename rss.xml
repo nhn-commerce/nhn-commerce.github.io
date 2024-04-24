@@ -132,7 +132,7 @@
 그래서 value에 <code>=</code> 문자를 넣고 싶다면 인코딩을 해야 한다.</p>
 <p>하지만 요청에 <code>=</code>을 인코딩하지 않고 value에 넣어서 문제가 발생하는 경우도
 확인되었다.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="원인-4">원인<a href="https://www.nhn-commerce.com/gateway#%EC%9B%90%EC%9D%B8-4" class="hash-link" aria-label="Direct link to 원인" title="Direct link to 원인">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="원�인-4">원인<a href="https://www.nhn-commerce.com/gateway#%EC%9B%90%EC%9D%B8-4" class="hash-link" aria-label="Direct link to 원인" title="Direct link to 원인">​</a></h3>
 <p>=를 인코딩하지 않고 보내는게 일단 잘못.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="해결방법-1">해결방법<a href="https://www.nhn-commerce.com/gateway#%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95-1" class="hash-link" aria-label="Direct link to 해결방법" title="Direct link to 해결방법">​</a></h3>
 <p>=은 보통의 replace로는 수동 인코딩이 불가능, rawQuery를 앰퍼센트 기준으로 나누면
@@ -153,12 +153,6 @@
 </ul>]]></content:encoded>
             <category>shopby</category>
             <category>godomall</category>
-        </item>
-        <item>
-            <title><![CDATA[제가 제일 잘생긴거 같아요!]]></title>
-            <link>https://www.nhn-commerce.com/2024/01/25/test</link>
-            <guid>https://www.nhn-commerce.com/2024/01/25/test</guid>
-            <pubDate>Thu, 25 Jan 2024 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[NHN커머스 기술 블로그]]></title>
